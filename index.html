@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <!-- Google imitation by Robson Cardozo -->
     <meta charset="UTF-8">
-    <meta name="description" content="Imitação do Google">
-    <meta name="keywords" content="google, html, css, frontend">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Imitation of Google">
+    <meta name="keywords" content="Google, HTML, CSS, frontend">
     <meta name="author" content="Robson Cardozo">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.google.com">
@@ -17,12 +19,18 @@
         <img src="google_logo.png" alt="Google Logo">
       </div>
       <div class="struct" id="searchbar">
-        <form>
-          <p><input class="sbar" type="text"></p>
+        <form id="search-form">
+          <p><input class="sbar" type="text" id="search-input" placeholder="Search on Google"></p>
           <p><input class="submit" type="submit" value="Google Search"></p>
         </form>
       </div>
       <div class="struct" id="bottom"></div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <footer>
+      <p>Contact: robsoncardozo@hotmail.com</p>
+      <p>Privacy Policy | Terms of Use</p>
+    </footer>
   </body>
 </html>
