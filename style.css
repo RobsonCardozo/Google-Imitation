@@ -18,8 +18,7 @@
     .sbar { /*Search Bar CSS class*/
       width: 500px;
       height: 35px;
-      border-style: solid;
-      border-color: lightgray;
+      border: 1px solid lightgray;
       border-radius: 8px;
       font-size: 18px;
       text-align: left;
